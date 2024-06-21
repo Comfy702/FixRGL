@@ -61,9 +61,9 @@ if ($installFolder) {
 
 # Logging information at the end
 if ($oneDriveRootRenamed) {
-    Write-Host "Folder in OneDrive root renamed to RockstarBackup."
+    Write-Host "Folder in OneDrive renamed to RockstarBackup."
 } else {
-    Write-Host "Rockstar Games folder not found in OneDrive root."
+    Write-Host "Rockstar Games folder not found in OneDrive."
 }
 
 if ($oneDriveDocumentsRenamed) {
