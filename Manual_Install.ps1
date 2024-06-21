@@ -11,7 +11,7 @@ if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 }
 
 # Define the name of the zip file
-$zipFileName = "Launcher.zip"
+$zipFileName = "LauncherFiles.zip"
 
 # Get the directory of the current script
 $scriptDirectory = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
