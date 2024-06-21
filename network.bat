@@ -6,7 +6,7 @@ if %errorLevel% neq 0 (
     exit /b
 )
 
-echo Terminating specified processes...
+echo Ending nessecary processes...
 taskkill /F /IM LauncherPatcher.exe /T
 taskkill /F /IM gta5.exe /T
 taskkill /F /IM SocialClubHelper.exe /T
